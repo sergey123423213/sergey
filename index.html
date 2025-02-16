@@ -1,12 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
-  <h1>Hello</h1>
+    <div class="nav-wraper">
+        <img src="/fortnite-lil-split.png" alt="" class="nav-hamestar">
+        <h4 class="nav-tittle">Video games</h4>
+        <p class="nav-balance">0$</p>
+    </div>
+    <div class="cards">
+        <div class="cards-items">
+        <img src="/forntiteeeeeee.jpeg" alt="" class="cards-item-photo">
+        <h4 class="cards-item-name">Fortnie</h4>
+        <p class="cards-item-price">25$</p>
+        <button class="cards-item-btn">buy</button>
+        </div>
+
+        <div class="cards-items">
+            <img src="/cod.webp" alt="" class="cards-item-photo">
+            <h4 class="cards-item-name">Call Of Duty</h4>
+            <p class="cards-item-price">75$</p>
+            <button class="cards-item-btn">buy</button>
+            </div>
+
+            <div class="cards-items">
+                <img src="/pluu.webp" alt="" class="cards-item-photo">
+                <h4 class="cards-item-name"> Grand Theft Auto 6</h4>
+                <p class="cards-item-price">100$</p>
+                <button class="cards-item-btn">buy</button>
+                </div>
+
+                <div class="cards-items">
+                    <img src="/robloxxx.jpeg" alt="" class="cards-item-photo">
+                    <h4 class="cards-item-name">Roblox</h4>
+                    <p class="cards-item-price">10%</p>
+                    <button class="cards-item-btn">buy</button>
+                    </div>
+
+
+
+                    <div class="cards-items">
+                        <img src="/minecraft_poster.png.webp" alt="" class="cards-item-photo">
+                        <h4 class="cards-item-name">Minecraft</h4>
+                        <p class="cards-item-price">20$</p>
+                        <button class="cards-item-btn">buy</button>
+                        </div>
+
+                        <div class="cards-items">
+                            <img src="/watcg dogs.avif" alt="" class="cards-item-photo">
+                            <h4 class="cards-item-name">watch dogs2</h4>
+                            <p class="cards-item-price"></p>
+                            <button class="cards-item-btn">buy</button>
+                            </div>
+
+                            <div class="cards-items">
+                                <img src="/apex.jpeg" alt="" class="cards-item-photo">
+                                <h4 class="cards-item-name">Apex</h4>
+                                <p class="cards-item-price">90$</p>
+                                <button class="cards-item-btn">buy</button>
+                                </div>
+
+                                <div class="cards-items">
+                                    <img src="/gorila tag.jpeg" alt="" class="cards-item-photo">
+                                    <h4 class="cards-item-name">gorila tag</h4>
+                                    <p class="cards-item-price">65$</p>
+                                    <button class="cards-item-btn">buy</button>
+                                    </div>
+                        
+                </div>
+                <script src="/script.js"></script>
 </body>
+
 </html>
+
+*{
+    margin: 0;
+    padding: 0;
+}   
+
+.nav-wraper {
+    display: flex;
+    align-items: center;
+        justify-content: space-between ;
+        padding: 30px  20px;
+}
+.nav-hamestar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all  .2s;
+}
+.nav-hamestar:active{
+    scale: 1.3;
+}
+
+
+.nav-tittle {
+}
+.nav-balance {
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.cards-items {
+    width: 20%;
+    border: 3px solid black;
+}
+.cards-item-photo {
+    width: 100%;
+    height: 240px;
+}
+.cards-item-name {
+    text-align: center;
+
+}
+.cards-item-price {
+    text-align: center;
+
+}
+.cards-item-btn {
+    width: 80%;
+    margin-left: 10%;
+    padding: 5px 0px;
+    font-size: 22px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: all  .5s;
+    
+}
+.cards-item-btn:active{
+    scale: 1.2;
+}
+body{
+    background-color: antiquewhite;
+}
